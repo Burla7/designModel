@@ -3,12 +3,12 @@ package com.qcode.jqzhangl.Singleton;
 import java.io.Serializable;
 
 /**
+ * 懒汉式单例(延迟加载)
  * Created by Administrator on 2016/11/28.
-
  */
 public final class Singleton implements Serializable {
 
-    /* 持有私有静态实例，         防止被引用，此处赋值为null，目的是实现延迟加载 */
+    /* 持有私有静态实例，防止被引用，此处赋值为null，目的是实现延迟加载 */
     private static Singleton instance = null;
 
     /* 私有构造方法，防止被实例化 */
@@ -27,7 +27,9 @@ public final class Singleton implements Serializable {
     public static Singleton getInterafaceForSynchronous() {
         if (instance == null) {
             synchronized (instance) {
-                if (instance == null) return new Singleton();
+                if (instance == null) {
+                    instance = new Singleton();
+                }
             }
         }
         return instance;
@@ -37,4 +39,5 @@ public final class Singleton implements Serializable {
     public Object readResolve() {
         return instance;
     }
+
 }
