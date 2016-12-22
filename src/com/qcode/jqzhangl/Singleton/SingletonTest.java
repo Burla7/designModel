@@ -3,6 +3,7 @@ package com.qcode.jqzhangl.Singleton;
 import java.util.Vector;
 
 /**
+ * (影子实例:单例对象的属性同步更新)
  * Created by Administrator on 2016/12/20.
  */
 public class SingletonTest {

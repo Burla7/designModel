@@ -10,7 +10,7 @@ public class SingletongNei {
         private SingletongNei() {
         }
 
-        /* 此处使用一个内部类来维护单例 */    //应用类的线程互斥 将高并发中可能出现的类初始化不一致从而导致的错误解决
+        /* 此处使用一个内部类来维护单例 */    //利用创建类时线程互斥 将高并发中可能出现的类初始化不一致从而导致的错误解决
         private static class SingletonFactory {
             private static SingletongNei instance = new SingletongNei();
         }
@@ -20,7 +20,7 @@ public class SingletongNei {
             return SingletonFactory.instance;
         }
 
-        /* 如果该对象被用于序列化，可以保证对象在序列化前后保持一致 */
+        /* 如果该对象被用于序列化，可以保证对    象在序列化前后保持一致 */
         public Object readResolve() {
             return getInstance();
         }
