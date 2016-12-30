@@ -1,6 +1,7 @@
-package com.qcode.jqzhangl.Singleton;
+package com.qcode.jqzhangl.Singleton.delay;
 
 /**
+ * 延迟加载 与饿汉模式不同的是，因为内部静态类是要在有引用了以后才会装载到内存的
  * Created by Administrator on 2016/12/20.
  */
 public class SingletongNei {

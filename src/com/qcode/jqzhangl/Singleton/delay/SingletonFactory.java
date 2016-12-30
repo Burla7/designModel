@@ -1,4 +1,4 @@
-package com.qcode.jqzhangl.Singleton;
+package com.qcode.jqzhangl.Singleton.delay;
 
 /**
  * (延迟加载) 将类的创建以及类的实例化分开

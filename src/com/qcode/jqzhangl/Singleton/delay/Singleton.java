@@ -1,4 +1,4 @@
-package com.qcode.jqzhangl.Singleton;
+package com.qcode.jqzhangl.Singleton.delay;
 
 import java.io.Serializable;
 

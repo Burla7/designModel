@@ -1,7 +1,10 @@
-package com.qcode.jqzhangl.Singleton;
+package com.qcode.jqzhangl.Singleton.update;
 
 import java.util.Vector;
 
+/**
+ * 通过readCount的控制加减进行同步操作
+ */
 public class GlobalConfig {
     private static GlobalConfig instance;
     private Vector properties = null;

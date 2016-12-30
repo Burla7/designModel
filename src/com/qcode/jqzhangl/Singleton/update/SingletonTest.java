@@ -1,4 +1,4 @@
-package com.qcode.jqzhangl.Singleton;
+package com.qcode.jqzhangl.Singleton.update;
 
 import java.util.Vector;
 
