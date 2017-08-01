@@ -21,7 +21,7 @@
 |   |享元模式  Flyweight  Pattern|
 |   |代理模式  Proxy  Pattern|
 |    | ***  |
-|   |职责链模式  Chain  of Responsibility Pattern|
+|   |职责链模式  Chain of Responsibility Pattern|
 |   |命令模式  Command  Pattern|
 |   |解释器模式 Interpreter  Pattern|
 |   |迭代器模式 Iterator  Pattern|
