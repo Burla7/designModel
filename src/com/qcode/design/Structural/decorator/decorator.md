@@ -29,7 +29,7 @@
     - 对一个对象多次装饰 并且动态装饰
    
   
-#####Demo介绍
+##### Demo介绍
 - Component为抽象构件类  中有display展示方法
 - ComponentDecorators为装饰父类  继承Component(不改变业务中返回的对象类型)  里面有构件字段对象 在构造方法中注入该构件 然后重写display方法  
 - compents包内为构件类 继承了Component  类实现了display方法。
