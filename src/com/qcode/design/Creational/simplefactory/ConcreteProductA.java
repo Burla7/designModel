@@ -7,6 +7,7 @@ package com.qcode.design.Creational.simplefactory;
 class ConcreteProductA extends Product {
     //实现业务方法
     public void methodDiff() {
+        System.out.println("A 业务方法实现");
         //业务方法的实现
     }
 }

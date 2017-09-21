@@ -9,7 +9,7 @@ class Factory {
         Product product = null;
         if (arg.equalsIgnoreCase("A")) {
             product = new ConcreteProductA();
-            //初始化设置product
+            //初始化设置product你
         }
         else if (arg.equalsIgnoreCase("B")) {
             product = new ConcreteProductB();
